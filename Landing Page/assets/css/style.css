@@ -1,0 +1,803 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	outline: 0;
+}
+
+.container{
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.flex{
+	display: flex;
+	align-items: center;
+}
+
+header .header-flex{
+	justify-content: space-between;
+	padding: 0 15px;
+	max-width: 1200px;
+}
+
+header ul{
+	list-style: none;
+	text-transform: uppercase;
+}
+
+header ul a{
+	text-decoration: none;
+	padding: 65px 20px;
+	color: #929292;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+header ul a li:hover{
+	color: #569ac4;
+	font-size: 14px;
+}
+
+header ul a:first-child{
+	padding: 0 20px 0 0;
+}
+
+header ul a:last-child{
+	padding: 0 0 0 20px;
+}
+
+.sub-list{
+	position: absolute;
+	font-weight: 300;
+	display: none;
+}
+
+.sub-list:hover{
+	color: #929292;	
+}
+
+.conheca-agora{
+	text-align: center;
+	padding: 60px 0;
+	background-image: url('../images/bg-sobre-nos.png');
+	background-size: 100% 100%;
+	background-position: bottom;
+	color: #fff;
+	margin: 0 auto;
+}
+
+.conheca-agora h2,
+.conheca-agora h3{
+	font-size: 40px;
+	line-height: 48px;
+	display: block;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+.conheca-agora h3{
+	font-weight: bold;
+}
+
+.conheca-agora p {
+	width: 900px;
+	font-size: 24px;
+	line-height: 32px;
+	padding: 35px 0;
+	margin: 0 auto;
+}
+
+.conheca-agora p span{
+	color: #ffc800;
+}
+
+.conheca-agora a button{
+	background-color: #ffc800;
+	text-transform: uppercase;
+	padding: 20px 30px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.conheca-agora button:hover{
+	transform: scale(1.1);
+}
+
+.sobre-nos{
+	text-align: center;
+	padding: 60px 0;
+	background-color: #6ab7e7;
+	color: #fff;
+}
+
+.title-section{
+	color: #fff;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 48px;
+	text-transform: uppercase;
+}
+
+.img-section{
+	padding: 25px 0 35px 0;
+}
+
+.sobre-nos h5{
+	text-align: center;
+	font-size: 16px;
+	line-height: 24px;
+	width: 800px;
+	margin: 0 auto;
+}
+
+.sobre-nos h5 span{
+	font-weight: bold;
+}
+
+.sobre-nos .banner{
+	width: 1100px;
+	margin: 0 auto;
+	justify-content: space-between;
+	padding: 35px 0;
+}
+
+.sobre-nos .banner .card{
+	width: 250px;
+	height: 240px;
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 30px;
+}
+
+.sobre-nos .banner .card img {
+	padding: 0 0 15px 0;
+}
+
+.sobre-nos .banner .card p{
+	width: 200px;
+	color: #585858;
+	text-align: left;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 600;
+}
+
+.sobre-nos h6{
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.sobre-nos h6 a{
+	color: #ffc800;
+	padding: 30px 0 0 0;
+	text-decoration: none;
+}
+
+.sobre-nos h6 a:hover,
+.formulario-contato .banner-contato .endereco .link-wpp:hover,
+.formulario-contato .banner-contato .telefones .link-cel:hover,
+.formulario-contato .banner-contato .endereco p:hover,
+.banner-contato button h5:hover{
+	text-decoration: underline;
+}
+
+.formulario-contato .banner-contato .endereco h3:hover{
+	text-decoration: none;
+}
+
+.nossos-parceiros{
+	padding: 60px 0;
+	text-align: center;
+}
+
+.nossos-parceiros h2,
+.beneficios-saude h2,
+.produtos-disponiveis h2{
+	color: #569ac4;
+}
+
+.nossos-parceiros .banner{
+	width: 1200px;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+.nossos-parceiros .banner .card{
+	padding: 30px;
+	border: 3px solid #c2c2c2;
+	border-radius: 4px;
+	width: 560px;
+	height: 430px;
+}
+
+.nossos-parceiros .banner .card p{
+	width: 450px;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 14px;
+	line-height: 20px;
+	color: #001c3e;
+}
+
+.nossos-parceiros .banner .card p:nth-child(2){
+	padding: 30px 0;
+}
+
+.nossos-parceiros .banner .card p span{
+	font-weight: bold;
+}
+
+.nossos-parceiros .banner .card button {
+	cursor: pointer;
+	background-color: #569ac4;
+	padding: 15px 50px;
+	border: none;
+	border-radius: 4px;
+	margin-top: 30px;
+}
+.nossos-parceiros .banner .card button a{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+.card-two a{
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 14px;
+	line-height: 20px;
+	color: #001c3e;
+}
+
+.nossos-parceiros .banner .card-two p{
+	width: 480px;
+}
+
+.nossos-parceiros .banner .card-two button{
+	margin-top: 85px;
+}
+
+.nossos-parceiros .banner .card button:hover{
+	background: linear-gradient(45deg, #569ac4, #4b89af);
+}
+
+.beneficios-saude{
+	background-color: #f5f5f5;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: repeat(5, 250px);
+	grid-auto-rows: 220px;
+	justify-content: space-between;
+	width: 1400px;
+	padding: 30px 0;
+}
+
+.beneficios-saude .grid-container .grid-item{
+	background-color: #fff;
+	border-radius: 4px;
+	box-shadow: 5px 6px 19px 22px #e8e8e8;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.beneficios-saude .grid-container .grid-item a{
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+}
+
+.beneficios-saude .grid-container .grid-item a img:hover,
+.produtos-disponiveis .grid-container .grid-item:hover{
+	transition: 1s linear;
+	transform: scale(1.1);
+}
+
+.produtos-disponiveis{
+	text-align: center;
+	padding: 100px 0;
+}
+
+
+.produtos-disponiveis .grid-container{
+	grid-template-rows: auto;
+	width: 1200px;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.produtos-disponiveis .grid-container .grid-item{
+	padding: 20px 0 0 0;
+}
+
+.fale-conosco{
+	background-color: #5597c0;
+}
+
+.fale-conosco .flex{
+	align-items: initial;
+}
+
+.fale-conosco .formulario-contato{
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 120px 0;
+}
+
+.fale-conosco .formulario-contato p{
+	  font-size: 20px;
+	  line-height: 1.2;
+	  text-align: center;
+	  color: #fff;
+}
+
+.fale-conosco .formulario-contato form,
+.formulario-contato .banner-contato{
+	width: 580px;
+	padding: 60px 0;
+	margin: 0 auto;
+}
+
+.fale-conosco .formulario-contato form label,
+.fale-conosco .formulario-contato form input,
+.fale-conosco .formulario-contato form textarea{
+	display: block;
+	width: 574px;
+	border-radius: 4px;
+	border: none;
+	margin: 0 auto;
+    outline: 0;
+}
+
+.fale-conosco .formulario-contato form label{
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 13px;
+}
+
+.fale-conosco .formulario-contato form input{
+	padding: 0 26px;
+  	font-size: 14px;
+  	color: #a3a3a3;
+  	line-height: 1.429;
+	height: 56px;
+	margin-bottom: 48px;
+}
+
+.fale-conosco .formulario-contato form textarea {
+  	height: 184px;
+  	resize: none;
+  	padding: 15px 26px;
+}
+
+.fale-conosco .formulario-contato form button {
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.429;
+	border-radius: 4px;
+	background-color: #69cf61;
+	width: 155px;
+	height: 48px;
+	border: none;
+	cursor: pointer;
+	display: block;
+	margin-top: 48px;
+	position: relative;
+    left: 422px;
+}
+
+.fale-conosco .formulario-contato form button:hover {
+	background: linear-gradient(45deg, #569052, #69cf61);
+}
+
+.formulario-contato .banner-contato{
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+.formulario-contato .banner-contato h2{
+	font-size: 32px;
+	color: #474747;
+	text-transform: uppercase;
+	line-height: 1.25;
+	text-align: center;
+	width: 430px;
+	font-weight: 400;
+	margin: 0 auto;
+}
+
+.formulario-contato .banner-contato h2 span,
+.formulario-contato .banner-contato p{
+	color: #589ac3;
+	font-weight: 800;
+}
+
+.formulario-contato .banner-contato h3,
+.formulario-contato .banner-contato p {
+	font-size: 20px;
+	color: rgb(147, 147, 147);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.6;
+	text-align: left;
+	padding: 0 0 0 23px;
+}
+
+.formulario-contato .banner-contato p{
+	color: #589ac4;
+}
+
+.formulario-contato .banner-contato .telefones{
+	padding: 50px 0 24px 35px;
+}
+
+.banner-contato button{
+	background-image: url('../images/Whatsapp-btn.png');
+	width: 520px;
+    border: none;
+    height: 72px;
+    cursor: pointer;
+	outline: 0;
+	margin: 15px 0;
+}
+
+.banner-contato button h5{
+	font-size: 24px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.333;
+	text-align: center;
+	padding: 0 0 0 60px;
+}
+
+.banner-contato .divisor-two{
+	transform: translateY(-10px);
+}
+
+.formulario-contato .banner-contato a{
+	text-decoration: none;
+}
+
+.formulario-contato .banner-contato .endereco{
+	padding-top: 24px;
+	align-items: center;
+}
+
+.formulario-contato .banner-contato .endereco p{
+	font-size: 16px;
+  	font-weight: bold;
+  	line-height: 1.375;
+  	text-align: left;
+}
+
+.formulario-contato .banner-contato .endereco img{
+	width: 60px;
+	height: 60px;
+}
+
+.formulario-contato .banner-contato .last-chil{
+	padding: 0 0 0 5px;
+}
+
+footer{
+	background-color: #274657;
+}
+
+footer .flex{
+	justify-content: center;
+}
+
+footer .flex p{
+	font-size: 14px;
+	line-height: 20px;
+	color: #fff;
+	padding: 15px 8px;
+}
+
+.header-mobile{
+	display: none;
+}
+
+@media screen and (max-width: 1430px){
+	.grid-container{
+		grid-template-columns: repeat(5, 210px);
+		justify-content: center;
+    	grid-gap: 20px;
+    	width: 100%;
+	}
+}
+
+@media screen and (max-width: 1230px){
+	.nossos-parceiros .banner {
+    	width: 100%;
+    	justify-content: space-evenly;
+    }
+    .nossos-parceiros .banner .card{
+    	width: 490px;
+    	height: 440px;
+    }
+    .nossos-parceiros .banner .card-two p {
+    	width: 440px;
+	}
+	.fale-conosco .formulario-contato form,
+	.formulario-contato .banner-contato {
+    	width: 540px;
+	}
+	.fale-conosco .formulario-contato form button{
+		margin: 48px 0 0 346px;
+		display: inline-block;
+		position: initial;
+	}
+	.fale-conosco .flex img:last-child{
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	.produtos-disponiveis .grid-container{
+		width: 100%;
+	} 
+    .grid-container {
+    	grid-template-columns: repeat(3, 210px);
+	}
+	.grid-two {
+    	grid-template-columns: repeat(5, 176px);
+    }
+	
+}
+
+@media screen and (max-width: 1110px){
+	.sobre-nos .banner{
+		width: 100%;
+		justify-content: space-evenly;
+	}
+	header ul a:first-child {
+    	padding: 0 10px 0 0;
+	}
+	header ul a {
+    	padding: 65px 10px;
+	}
+	header ul a:last-child {
+    	padding: 0 0 0 10px;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.nossos-parceiros .banner .card {
+    	width: 350px;
+    	height: 465px;
+    }
+    .nossos-parceiros .banner .card p {
+    	width: 280px;
+    }
+    .nossos-parceiros .banner .card button{
+    	margin-top: 10px;
+    }
+    .nossos-parceiros .banner .card-two button{
+    	margin-top: 90px;
+    }
+    .grid-two {
+    	grid-template-columns: repeat(3, 176px);
+	}
+	.header-flex a img{
+		width: 200px;
+	}
+	header ul a:first-child {
+    	padding: 0 5px 0 0;
+	}
+	header ul a {
+    	padding: 65px 5px;
+	}
+	header ul a:last-child {
+    	padding: 0 0 0 5px;
+	}
+	header ul a{
+		font-size: 12px;
+	}
+	.conheca-agora p {
+    	width: auto;
+    	font-size: 20px;
+    }
+    .sobre-nos .banner .card {
+    	width: 180px;
+    }
+    .sobre-nos .banner .card p {
+	    width: 150px;
+	    font-size: 14px;
+	}
+	.fale-conosco .formulario-contato form label,
+	.fale-conosco .formulario-contato form input, 
+	.fale-conosco .formulario-contato form textarea,
+	.fale-conosco .formulario-contato form, 
+	.formulario-contato .banner-contato {
+    	width: 420px;
+	}
+	.fale-conosco .formulario-contato form button {
+    	margin: 48px 0 0 246px;
+	}
+	.sobre-nos h5 {
+    	width: 500px;
+	}
+	.formulario-contato .banner-contato h2 {
+    	font-size: 25px;
+    }
+    .formulario-contato .banner-contato .telefones {
+    	padding: 50px 0 24px 15px;
+	}
+	.formulario-contato .banner-contato h3, 
+	.formulario-contato .banner-contato p {
+    	font-size: 15px;
+    }
+    .banner-contato button {
+    	width: 350px;
+    }
+    .banner-contato button h5 {
+    	font-size: 16px;
+    }
+    .divisor{
+    	width: 85%;
+    }
+}
+
+@media screen and (max-width: 768px){
+	.header-desk,
+	.lista-mobile,
+	.fale-conosco .flex img:last-child{
+		display: none;
+	}
+	.header-mobile{
+		display: block;
+	}
+	header .header-flex{
+		padding: 25px;
+	}
+	.header-mobile i{
+		font-size: 30px;
+    	color: #4b89af;
+	}
+	.lista-mobile{
+    	padding: 20px 0;
+	}
+	.lista-mobile,
+	.sobre-nos .banner .card p,
+	.nossos-parceiros .banner .card p,
+	.formulario-contato .banner-contato h3,
+    .formulario-contato .banner-contato .endereco p{
+		text-align: center;
+	}
+
+	.lista-mobile a li{
+		border: 1px solid #5597c0;
+	    padding: 15px 0;
+	    border-radius: 4px;
+	    width: 90%;
+	    margin: 0 auto;
+	    color: #589ac4;
+	}
+	header ul a,
+	header ul a:first-child,
+	header ul a:last-child{
+		padding: 10px 0;
+		display: block;
+	}
+	.header-flex a img {
+    	width: 140px;
+	}
+	.conheca-agora,
+	.sobre-nos,
+	.nossos-parceiros{
+		padding: 50px 10px;
+	}
+	.conheca-agora h2, 
+	.conheca-agora h3{
+		font-size: 30px;
+	}
+	.sobre-nos .banner,
+	.nossos-parceiros .banner,
+	.fale-conosco .banner-contato .numbers,
+	.formulario-contato .banner-contato .telefones{
+		flex-direction: column;
+	}
+	.sobre-nos .banner .card{
+		width: 90%;
+    	margin: 10px 0;
+		padding: 30px 10px;
+	}
+
+	.sobre-nos .banner .card,
+	.nossos-parceiros .banner .card,
+	.fale-conosco .formulario-contato,
+	.banner-contato button {
+		width: 90%;
+	}
+	.sobre-nos .banner .card p{
+		width: 100%;
+	    margin: 0 auto;
+	}
+	.nossos-parceiros .banner .card {
+    	height: auto;
+    	margin-bottom: 10px;
+	}
+	.nossos-parceiros .banner .card p {
+    	width: 100%;
+    	margin: 0 auto;
+    }
+    .nossos-parceiros .banner .card button {
+    	margin-top: 30px;
+	}
+	.nossos-parceiros .banner .card p:nth-child(2) {
+    	padding: 20px 0;
+	}
+	.sobre-nos .banner .card img {
+    	padding: 30px 0 15px 0;
+	}
+	.grid-container {
+    	grid-template-columns: repeat(1, 90%);
+	}
+	.produtos-disponiveis .grid-two {
+    	grid-auto-rows: auto;
+    }
+    .produtos-disponiveis .grid-container .grid-item{
+    	box-shadow: 5px 6px 19px 22px #e8e8e8;
+    	padding: 70px 0;
+    }
+    .fale-conosco .formulario-contato form, 
+    .formulario-contato .banner-contato,
+    .fale-conosco .formulario-contato form label, 
+    .fale-conosco .formulario-contato form input, 
+    .fale-conosco .formulario-contato form textarea,
+    .formulario-contato .banner-contato h2,
+    .sobre-nos h5,
+	.sobre-nos .banner .card p{
+    	width: 100%;
+    }
+    .fale-conosco .formulario-contato form textarea{
+    	margin-bottom: 20px;
+    }
+    .fale-conosco .formulario-contato form button{
+    	display: block;
+    	margin: 0 auto;
+	}
+	.fale-conosco .formulario-contato,
+	.banner-contato button {
+    	background-size: 100% 100%;
+    }
+    .banner-contato button h5 {
+    	font-size: 12px;
+	}
+	.formulario-contato .banner-contato .telefones{
+   	 	align-items: center;
+    	padding: 50px 0 20px;
+	}
+	.formulario-contato .banner-contato h3,
+	.formulario-contato .banner-contato p,
+	.formulario-contato .banner-contato .last-chil{
+		padding: 10px 0;
+	}
+	.formulario-contato .banner-contato .endereco p {
+    	font-size: 12px;
+    }
+}
